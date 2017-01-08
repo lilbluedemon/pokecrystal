@@ -41,7 +41,6 @@ INCLUDE "audio/music/trainervictory.asm"
 
 SECTION "Songs 2", ROMX, BANK[SONGS_2]
 
-INCLUDE "audio/music/route1.asm"
 INCLUDE "audio/music/route3.asm"
 INCLUDE "audio/music/route12.asm"
 INCLUDE "audio/music/kantogymbattle.asm"
@@ -71,8 +70,8 @@ INCLUDE "audio/music/lakeofragerocketradio.asm"
 INCLUDE "audio/music/magnettrain.asm"
 INCLUDE "audio/music/lavendertown.asm"
 INCLUDE "audio/music/dancinghall.asm"
-INCLUDE "audio/music/contestresults.asm"
 INCLUDE "audio/music/route30.asm"
+INCLUDE "audio/music/contestresults.asm"
 
 
 SECTION "Songs 3", ROMX, BANK[SONGS_3]
@@ -138,7 +137,8 @@ INCLUDE "audio/music/battletowerlobby.asm"
 INCLUDE "audio/music/mobilecenter.asm"
 INCLUDE "audio/music/goldenrodcity.asm"
 
-
+SECTION "Songs 6", ROMX, BANK[SONGS_6]
+INCLUDE "audio/music/route1.asm"
 
 SECTION "Extra Songs 1", ROMX, BANK[EXTRA_SONGS_1]
 

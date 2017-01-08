@@ -115,6 +115,7 @@ SONGS_2                   EQU $3B
 SONGS_3                   EQU $3C
 SONGS_4                   EQU $3D
 SONGS_5                   EQU $5E
+SONGS_6					  EQU $80
 
 EXTRA_SONGS_1             EQU $7
 EXTRA_SONGS_2             EQU $33
